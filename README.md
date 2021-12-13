@@ -44,7 +44,7 @@ The following models aim to classify posts from subreddits for several overlappi
 
 Overall, all three models had very similar performance, but I would recommend the GBoost model based on its superior accuracy on test data. 
 
-| Model                     | Test Accuracy | Train Accuracy | Best Parameters                                                                                            |
+| Model                     | Train Accuracy | Test Accuracy | Best Parameters                                                                                            |
 |---------------------------|---------------|----------------|------------------------------------------------------------------------------------------------------------|
 | Multinomial Naive Bayes   | 85%           | 75%            | max_df: 0.9<br>max_features: 5000<br>min_df: 3<br>ngram_range: (1, 2)                                      |
 | Random Forest Classifier  | 83%           | 76%            | max_depth: 19<br>max_features: 'auto'<br>min_samples_leaf: 2<br>min_samples_split: 4<br>n_estimators: 1000 |
